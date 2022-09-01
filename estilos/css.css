@@ -1,90 +1,56 @@
-#header{
-    height: 10vh;
-    position: sticky;
-}
+#header {
+  height: 10vh;
+  position: sticky; }
 
-#main{
-    height:  80vh;
-    background-image: radial-gradient(rgb(224, 224, 165), rgb(238, 238, 13));
-}
+#main {
+  height: 80vh;
+  background-image: radial-gradient(#e0e0a5, #eeee0d); }
 
-#footer{
-    height: 10vh;
-     background-image:linear-gradient(rgb(255, 81, 0), yellow);
-}
+#footer {
+  height: 10vh;
+  background-image: linear-gradient(#ff5100, yellow); }
 
-.card{
-  transform-style: preserve-3d;
-}
+.card {
+  transform-style: preserve-3d; }
 
-.card:hover{
-  transform: scale(1.1);
-}
-
-
-
-
+.card:hover {
+  transform: scale(1.1); }
 
 .texto {
-  
   color: #000000;
-  text-shadow:  3px 3px #f1f7f6;
+  text-shadow: 3px 3px #f1f7f6; }
 
-}
+footer p {
+  transform-style: preserve-3d; }
 
- 
-footer p{
-      
-      transform-style: preserve-3d;
-  
-  }
+footer p:hover {
+  transform: rotateX(20deg); }
 
-  footer p:hover{
-    transform: rotateX(20deg);
-  }
-.table{
-    animation-name: entrada;
-    animation-duration: 5s;
-    animation-delay: .5s;
-}
-@keyframes entrada{
-    0%{
-      opacity: 0;
-    }
-    100%{
-      opacity: 1;
-    }
-}
+.table {
+  animation-name: entrada;
+  animation-duration: 5s;
+  animation-delay: .5s; }
 
+@keyframes entrada {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
 
 /*/ X-Small devices (portrait phones, less than 576px)
 // No media query for `xs` since this is the default in Bootstrap*/
-
- /*// Small devices (landscape phones, 576px and up)  */
+/*// Small devices (landscape phones, 576px and up)  */
 @media (min-width: 576px) {
   .texto {
-    font-size: .5em;
-    
-  }
-  }
+    font-size: .5em; } }
 
 /*// Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .texto {
-    font-size: 1em;
-    
-  }
-  }
+    font-size: 1em; } }
 
 /*// Large devices (desktops, 992px and up) */
-@media (min-width: 992px) { 
+@media (min-width: 992px) {
   .texto {
-    font-size: 1em;
-    
-  }
-/*// X-Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) { 
-  
-  
-  } }
-
+    font-size: 1em; }
+  /*// X-Large devices (large desktops, 1200px and up) */ }
